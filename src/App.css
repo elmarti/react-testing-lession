@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.low-prio {
+  color: green;
+}
+.high-prio {
+  color: red
+}
+
+.input-default{
+  border-color: black;
+}
+.input-recommended {
+  border-color: green;
+}
+.input-invalid {
+  border-color: red;
+}
+
+.box-alert {
+  background: red; 
+  padding: 25px;
+  border-color: orange;
+  color: white; 
+  border-radius: 25px;
+}
+.box-info {
+  background: gray; 
+  padding: 25px;
+  border-color: black ;
+  color: black; 
+  border-radius: 25px;
+}
